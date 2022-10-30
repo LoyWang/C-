@@ -6,7 +6,9 @@ namespace Gitpod
     {
         static void Main(sting[]args)
         {
-            Console.WriteLine("hello world");
+            Console.WriteLine("Hola como te llamas");
+            sting name = Console.ReadLine();
+            Console.WriteLine("hola "+name);
         }
     }
 }
